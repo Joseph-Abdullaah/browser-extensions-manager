@@ -245,7 +245,7 @@
 
 /* Theme-specific styling */
 .theme-dark .header-bar {
-  background-color: var(--color-neutral-900);
+  background-color: var(--color-neutral-800);
 }
 
 .theme-dark .header-bar__logo-text {
@@ -265,7 +265,7 @@
 }
 
 .theme-dark .filter-tabs__pill {
-  background-color: var(--color-neutral-900);
+  background-color: var(--color-neutral-800);
   color: var(--color-neutral-200);
 }
 
