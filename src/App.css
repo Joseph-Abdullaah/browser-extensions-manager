@@ -64,6 +64,7 @@
   display: flex;
   align-items: center;
   gap: 0.75rem;
+  position: relative;
 }
 
 .header-bar__logo-image {
@@ -71,8 +72,10 @@
 }
 
 .header-bar__logo-text {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   font-weight: 700;
+  position: absolute;
+  left: 2.625rem;
 }
 
 .header-bar__theme-toggle {
@@ -226,7 +229,7 @@
   width: 20px;
   height: 20px;
   border-radius: 999px;
-  background-color: white;
+  background-color: var(--color-neutral-0);
   transform: translateX(0);
   transition: transform 150ms ease;
 }
@@ -287,8 +290,8 @@
 }
 
 .theme-dark .extension-card--inactive {
-  background-color: var(--color-neutral-900);
-  color: var(--color-neutral-300);
+  background-color: var(--color-neutral-800);
+  color: var(--color-neutral-200);
 }
 
 .theme-dark .extension-card__remove-button {
@@ -308,7 +311,7 @@
 }
 
 .theme-dark .extension-card__toggle.is-off {
-  background-color: var(--color-neutral-700);
+  background-color: var(--color-neutral-600);
 }
 
 .theme-light .header-bar {
@@ -355,8 +358,8 @@
 }
 
 .theme-light .extension-card--inactive {
-  background-color: var(--color-neutral-100);
-  color: var(--color-neutral-300);
+  background-color: var(--color-neutral-0);
+  color: var(--color-neutral-600);
 }
 
 .theme-light .extension-card__remove-button {
@@ -376,6 +379,6 @@
 }
 
 .theme-light .extension-card__toggle.is-off {
-  background-color: var(--color-neutral-200);
+  background-color: var(--color-neutral-300);
 }
 
