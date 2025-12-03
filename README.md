@@ -1,16 +1,77 @@
-# React + Vite
+Sure, here's a modified version of the template for your project:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Browser Extensions Manager
 
-Currently, two official plugins are available:
+This is a solution to the [Browser Extensions Manager UI challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/browser-extension-manager-ui-yNZnOfsMAp). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
 
-## React Compiler
+- [Browser Extensions Manager](#browser-extensions-manager)
+  - [Table of Contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
+    - [Continued development](#continued-development)
+    - [Useful resources](#useful-resources)
+  - [Author](#author)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- Toggle extensions between active and inactive states
+- Filter active and inactive extensions
+- Remove extensions from the list
+- Select their color theme
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
+
+### Screenshot
+
+![Preview](./preview.jpg)
+
+
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+- [Vite](https://vitejs.dev/) - Build tool
+- [Zustand](https://github.com/pmndrs/zustand) - State management
+
+### What I learned
+
+- How to use Zustand for state management in a React application
+- How to use Vite for building a React application
+- How to use Tailwind CSS for styling
+
+### Continued development
+
+- Learning more about Zustand and its capabilities
+- Learning more about Vite and its features
+- Learning more about Tailwind CSS and its utility classes
+
+### Useful resources
+
+- [Zustand documentation](https://docs.pmnd.rs/zustand/introduction) - This helped me for understanding Zustand.
+- [Vite documentation](https://vitejs.dev/guide/features.html) - This helped me for understanding Vite.
+- [Tailwind CSS documentation](https://tailwindcss.com/docs) - This helped me for understanding Tailwind CSS.
+
+## Author
+
+
+- Frontend Mentor - [@Joseph-Abdullaah](https://www.frontendmentor.io/profile/Joseph-Abdullaah)
